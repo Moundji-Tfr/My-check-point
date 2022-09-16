@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 11111111;
+  background-color: rgb(129, 53, 53);
+  width: auto;
+  height: auto;
+  color: #000;
+}
+.logo {
+  left: 0%;
+  top: 0%;
+  margin: 0;
+  padding: 0;
+  width: 5%;
+  height: 6%;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+}
+.icons {
+  margin-left: 50%;
+  margin-top: 1%;
+  width: 10%;
+  height: 100%;
+  display: flex;
+  gap: 15%;
+}
+.icons img {
+  display: flex;
+  width: 60%;
+  height: 80%;
+}
+.panier {
+  margin: 0;
+  padding: 0;
+  width: 2%;
+  height: 4%;
+}
+.panier img {
+  width: 70%;
+  height: 2%;
+  right: 5%;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+.card {
+  border: 1px solid #999;
+}
+
+.basket {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.pop-up {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 60vh;
+  background: #f6f62b;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  z-index: 999999;
+}
+
+.overlay {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+.shopItem {
+  display: flex;
+  align-items: center;
+  border: 1px solid #999;
+}
+
+.shopItem img {
+  height: 20vh;
+}
+
+.active {
+  display: block;
+}
+.Items {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+button {
+  width: 5%;
+}
+.Items img {
+  margin: 0;
+  padding: 0;
+  width: 70%;
+  height: 70%;
+}
